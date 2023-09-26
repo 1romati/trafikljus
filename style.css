@@ -1,0 +1,74 @@
+* {
+  background-color: lightgrey;
+}
+
+.background {
+  display: flex;
+  width: 100px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.square {
+  display: flex;
+  width: 90%;
+  height: 30%;
+  margin: auto;
+}
+
+.smallSquare {
+  display: flex;
+  width: 85%;
+  height: 85%;
+  margin: auto;
+}
+
+#red {
+  background-color: darkred;
+}
+
+#yellow {
+  background-color: rgb(178, 178, 0);
+}
+
+#green {
+  background-color: darkgreen;
+}
+
+#smallRed {
+  background-color: red;
+  align-items: flex-end;
+}
+
+#smallYellow {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#smallGreen {
+  background-color: green;
+  display: flex;
+  align-items: flex-end;
+}
+
+.miniRed {
+  background-color: #ffa9a9;
+  width: 100%;
+  height: 50%;
+}
+
+.miniYellow {
+  background-color: rgb(255, 255, 143);
+  width: 50%;
+  height: 50%;
+}
+
+.miniGreen {
+  background-color: lightgreen;
+  width: 50%;
+  height: 50%;
+}
